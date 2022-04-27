@@ -13,14 +13,14 @@ import io.restassured.response.Response;
 public class Put_Operation {
 
 
-//--Update a record in customers table
+//--Update a record in EmployeeDetails
 	@Test
 	public void update_a_record_in_EmployeeDetails() {
 		System.out.println("--------*---------*--GET REQUEST--------*---------*-");
 		System.out.println("Update a record in EmployeeDetails........");
 		
 		HashMap data = new HashMap();
-		data.put("employeeNumber", "fatema");
+		data.put("employeeNumber", "347893");
 		data.put("lastName", "rahman");
 		data.put("firstName", "farin");
 		data.put("Id", "168");
