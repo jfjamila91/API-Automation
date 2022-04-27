@@ -25,7 +25,7 @@ public class Get_Operation {
 
 	}
 
-//----- Sce_02: Search Employee by first name (Taniya)
+//----- Sce_02: Search Employee by lastName (jamila)
 	@Test
 	public void search_Employee_By_lastName() {
 		System.out.println("--------*---------*--GET REQUEST--------*---------*-");
