@@ -12,7 +12,7 @@ public class Delete_Operation {
 //----  delete customer by id
 		@Test
 		public void delete_customer_by_id() {
-			System.out.println("-------*---------*--GET REQUEST--------*------*---");
+			System.out.println("-------*---------*--DELETE REQUEST--------*------*---");
 			System.out.println("delete a record in customers....");
 
 			Response resp =
