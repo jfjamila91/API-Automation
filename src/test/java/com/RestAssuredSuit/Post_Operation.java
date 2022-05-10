@@ -17,7 +17,7 @@ public class Post_Operation {
 		//----Add a record in customersDetails
 				@Test
 				public void Add_a_record_in_customersDetails() {
-					System.out.println("--------*---------*--GET REQUEST--------*---------*-");
+					System.out.println("--------*---------*--POST REQUEST--------*---------*-");
 					System.out.println("Add a Record in customersTable");
 					
 					HashMap data = new HashMap();
